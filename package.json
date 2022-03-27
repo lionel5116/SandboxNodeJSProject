@@ -1,0 +1,23 @@
+{
+  "name": "sandboxnodeproject",
+  "version": "1.0.0",
+  "description": "sandox nodejs project for react - msyql",
+  "main": "appAPI.js",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lionel5116/SandboxNodeJSProject.git"
+  },
+  "author": "Lionel Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lionel5116/SandboxNodeJSProject/issues"
+  },
+  "homepage": "https://github.com/lionel5116/SandboxNodeJSProject#readme"
+}
