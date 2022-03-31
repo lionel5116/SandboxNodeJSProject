@@ -20,9 +20,13 @@ client.connect(config.DB, function(err, db) {
 });
 */
 
+//wire up cors
+var cors = require('cors')
+
 const express = require('express');
 const app = express();
-const PORT = 4000;
+app.use(cors())
+const PORT = 4090;
 
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
@@ -34,7 +38,7 @@ app.get('/', function (req, res) {
     res.json({ "hello": "world" });
 });
 
-app.get('/students', function (req, res) {
+app.get('/api/students', function (req, res) {
     // Connection URL
     const url = 'mongodb://rootuser:rootpass@localhost:27017';
 
