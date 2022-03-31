@@ -1,5 +1,14 @@
 //one student
 //db.student.insert(student)
+
+student = {
+    "firstname":"Fred",
+    "lastName":"Friend",
+    "email":"fredterry876@gmail.com",
+    "gender":"M"
+}
+
+
 student = {
     "firstname":"Fred",
     "lastName":"Friend",
