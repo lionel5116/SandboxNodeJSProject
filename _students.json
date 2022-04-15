@@ -1,7 +1,20 @@
-//docker exec -it <containerID> bash
-//mongo mongodb://localhost:27017 -u rootuser -p rootpass
-
 /*
+To start the docker containers in detached mode (so you can still have your terminal)
+docker compose up -d
+
+To remove all running containers
+docker compose down   
+
+To stop
+docker compose stop
+
+To Start
+Docker compose start
+
+docker exec -it <containerID> bash
+mongo mongodb://localhost:27017 -u rootuser -p rootpass
+
+
 To see your databases
 show dbs;
 
