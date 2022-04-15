@@ -1,5 +1,26 @@
-//one student
-//db.student.insert(student)
+//docker exec -it <containerID> bash
+//mongo mongodb://localhost:27017 -u rootuser -p rootpass
+
+/*
+To see your databases
+show dbs;
+
+To create a database
+use lioneldb;
+
+To see the database, we can type:
+db.getName():
+
+Then to create the collection (table)
+db.createCollection(“student”);
+
+one student
+db.student.insert(student)
+
+To see the output prettier
+db.student.find().pretty();
+
+*/
 
 student = {
     "firstname":"Fred",
