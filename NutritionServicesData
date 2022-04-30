@@ -1,0 +1,27 @@
+FTBOItems = [
+{
+    "FOmmittedName":"Dairy Products",
+    "SequenceID":"1"
+},
+{
+    "FOmmittedName":"Eggs as an Ingredient",
+    "SequenceID":"2"
+},
+{
+    "FOmmittedName":"Fluid Dairy Milk",
+    "SequenceID":"3"
+},
+{
+    "FOmmittedName":"Foods Processed in a Facility that Contains Nuts",
+    "SequenceID":"4"
+},
+{
+    "FOmmittedName":"Milk Protein",
+    "SequenceID":"5"
+},
+{
+    "FOmmittedName":"Peanuts",
+    "SequenceID":"6"
+},
+
+]
